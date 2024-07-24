@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
+
+/*home*/
+
+*{
+    margin:0;
+    box-sizing:border-box;
+    font-family: "Cedarville Cursive", cursive;
+    font-style: normal;
+}
+  
+.navbar{
+    background-color: #dc0a2d;
+}
+.nav-link{
+    color:white;
+    font-size: 25px;
+}
+.bgimg{
+    background-image: url("https://img.freepik.com/free-photo/cute-flowers-crunchy-cone_23-2147766656.jpg?t=st=1712914681~exp=1712918281~hmac=a59522b4a15d0e3f5fdb189ca0f3e47a6aa65e620396f1abc1c8a8e90a8a76e8&w=996");
+    width:100vw;
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+    margin-top: 6%;
+}
+.head{
+    font-size: 70px;
+    color:#dc0a2d;
+    margin-top: 5%;
+    text-shadow: 2px 3px 1px grey;
+}
+.btns{
+    background-color: transparent;
+    color: green;
+    border: 1px solid green;
+    width:40%;
+    border-radius: 25px;
+    margin-top: 3%;
+    padding: 0.5%;
+    font-size: 30px;
+}
+.btns:hover{
+    background-color: green;
+    color: white;
+
+}
+
+/*about*/
+
+.ca-img{
+    aspect-ratio: 3/2;
+    width:100%;
+}
+.card-title{
+    text-align: center;
+    font-size: 20px;
+    color:#dc0a2d;
+
+}
+.form-label{
+    color:#dc0a2d;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 2%;
+
+}
